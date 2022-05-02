@@ -1,0 +1,143 @@
+:root
+{
+    --grayHeader: #2a2a2a;
+	--grayBoxs: #222222;
+	--grayN3: #202020;
+    --white: white;
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;   
+}
+
+html
+{    
+    font-size: 62.5%;       
+    font-family: 'Quicksand', sans-serif; 
+}
+
+h2
+{
+    font-size: 1.4rem;
+    color: white;    
+}
+
+
+.watchHeader
+{
+    width: 100%;
+    height: 68px;
+    background-color: var(--grayHeader);
+    display: flex;
+    justify-content: center;
+}
+
+.watchNav
+{
+    width: 80%;    
+    display: grid;
+    grid-template-columns: 400px 120px 400px;
+    justify-content: center;
+}
+
+.navList
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navItem
+{
+    list-style: none;
+}
+
+.watchLinks
+{
+    font-size: 1.6rem;
+    color: var(--white);
+    text-decoration: none;
+}
+
+.watchBrand
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.watchLogo
+{
+    width: 58px;
+    height: 58px;
+    background-image: url(../assets/icons/logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.watchMain
+{
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-rows: 800px;
+    overflow: hidden;
+
+}
+
+.watchWelcome
+{
+    width: 100%;    
+    background-image: url(../assets/images/mountain.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+.welcome-div
+{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(32, 32, 32, 0.2);
+}
+
+.welcome-intro
+{
+    width: 60%;
+    height: 100px;
+}
+
+.intro-title
+{
+    font-size: 4rem;    
+    font-weight: bold;
+    color: var(--white);
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+.watchFooter
+{
+    width: 100%;
+    height: 80px;
+    background-color: #2a2a2a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
