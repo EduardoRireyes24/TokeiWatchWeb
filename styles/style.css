@@ -26,6 +26,8 @@ h2
 }
 
 
+
+
 .watchHeader
 {
     width: 100%;
@@ -86,9 +88,9 @@ h2
 .watchMain
 {
     width: 100%;
-    height: 2000px;
+    /* height: 2000px; */
     display: grid;
-    grid-template-rows: 800px;
+    grid-template-rows: 800px 760px 1000px;
     overflow: hidden;
 
 }
@@ -106,7 +108,7 @@ h2
 .welcome-div
 {
     width: 100%;
-    height: 700px;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,6 +153,7 @@ h2
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    align-self: flex-start;
 }
 
 .iconCategories
@@ -239,4 +242,116 @@ h2
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* More Sold */
+
+.watchMoreSold
+{
+    width: 100%;
+    height: 1000px;   
+    background-image: url(../assets/images/mountain2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;        
+}
+
+.moreSold-div
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(32, 32, 32, 0.2);
+}
+
+.clockCards
+{
+    width: 85%;
+    display: grid;
+    grid-template-columns: repeat(3, 33.33%);
+    grid-template-rows: 400px 400px;    
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+    
+}
+
+.watchCards
+{
+    width: 75%;
+    height: 85%;
+    border-radius: 20px;
+    overflow: hidden;
+    background-color: var(--grayN3);
+    margin: 5px;
+}
+
+.cardImage
+{
+    width: 100%;
+    height: 70%;
+    display: block;
+    background-color: white;    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.watch1
+{
+    background-image: url(../assets/images/lotus-18162-2.png);
+}
+
+.watch2
+{
+    background-image: url(../assets/images/bering-modelo-11940-222.jpg);
+}
+
+.watch3
+{
+    background-image: url(../assets/images/diesel-Z4506\ MS9-chrono.jpg);
+}
+
+.watch4
+{
+    background-image: url(../assets/images/Seiko-5-Sports-modelo-SRPD51K1.jpg);
+}
+
+.watch5
+{
+    background-image: url(../assets/images/sandoz-casuel-81383-37.jpg);
+}
+
+.watch6
+{
+    background-image: url(../assets/images/armani-exchange-modelo-AX1831.jpg);
+}
+
+.cardDescripcion
+{
+    width: 100%;
+    height: 30%;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.descriptionTitle
+{
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: var(--white);
+    text-align: center;
+}
+
+.descriptionParagraph
+{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
 }
